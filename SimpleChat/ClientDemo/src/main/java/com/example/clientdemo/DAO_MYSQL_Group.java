@@ -68,7 +68,8 @@ public class DAO_MYSQL_Group implements IDao_group{
 
     @Override
     public Group getGroup(String name) {
-        return null;
+       Group group = new Group();
+        return group;
     }
 
     @Override
